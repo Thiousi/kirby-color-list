@@ -7,6 +7,7 @@ Copy colorlist folder to your site/fields folder
 ## Usage
 In  your blueprint:
 
+```
   color:
     label: Color list
     type: colorlist
@@ -20,7 +21,8 @@ In  your blueprint:
       - "#d45353"
       - "#ffd041"
       - "#e91e63"
-  
+```
+
 ## To-do
 [] Add support for fetching remote data (like radio, select, etc)
 [] Test (not sure default is working)
