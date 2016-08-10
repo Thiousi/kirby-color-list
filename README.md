@@ -2,7 +2,7 @@
 A color picker in the form of a list of colors for Kirby
 
 ## Installation
-Copy colorlist folder to your site/fields folder
+Copy `colorlist` folder to your `site/fields` folder. If it doesn't exist, create it.
 
 ## Usage
 In  your blueprint:
@@ -24,6 +24,7 @@ In  your blueprint:
 ```
 
 ## To-do
-[] Add support for fetching remote data (like radio, select, etc)
-[] Test (not sure default is working)
-[] Display color value in tooltip maybe?
+- [ ] Add support for fetching remote data (like radio, select, etc)
+- [ ] Test (not sure default is working)
+- [ ] Display color value in tooltip maybe?
+- [ ] Make it Kirby CLI and git submodule friendly
