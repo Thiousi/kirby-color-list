@@ -41,6 +41,12 @@ In  your blueprint:
       - "#e91e63"
 ```
 
+Because the field uses background-color, you can use any type of colors as options, and even mix them up:
+- "#fff"
+- "rgba(255,255,255,0.5)"
+- "rgb(255,255,255)"
+- "red"
+
 ### Options
 The field supports the standard options:
 - Default
