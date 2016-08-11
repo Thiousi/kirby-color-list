@@ -58,13 +58,29 @@ Because the field uses background-color, you can use any type of colors as optio
 ```
 
 ### Options
+There is a custom option to allow the radio buttons to be unselected (with js), `unset`:
+**BUG** This feature currently only works visually. Help needed!
+
+```
+ color:
+    label: Color list
+    type: colorlist
+    unset: true
+    options: 
+      - "#eb1717"
+      - "#28db78"
+```
+
 The field supports the standard options:
+
+```
 - Default
 - Readonly
 - Translate
 - Help
 - Width
 - ...
+```
 
 It does not support to query the options from another field. I had planned to implement it but realized it wasn't useful.
 
@@ -73,12 +89,14 @@ It does not support to query the options from another field. I had planned to im
 - [X] ~~Fix readonly not working~~
 - [X] ~~Fix field name~~
 - [X] ~~Make it Kirby CLI and git submodule friendly~~
+- [X] ~~Allow radios to be unset with field option~~
 - [ ] Display color value in tooltip. Maybe?
 
 ## Thanks
 - @jenstornell for the Boiler field and his help debugging the field
 - @ian-cox for his help designing the field and inspiration with the color field
-- @Konstantinfr for his patience
+- @malvese for testing
+- @Konstantinfr for his patience and front-end help
 
 ## License
 MIT

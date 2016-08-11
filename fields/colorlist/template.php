@@ -20,10 +20,8 @@
       if(booRadio == this){
           this.checked = false;
           booRadio = null;
-          console.log('1');
         }else{
           booRadio = this;
-          console.log('2');
         }
     };
   }

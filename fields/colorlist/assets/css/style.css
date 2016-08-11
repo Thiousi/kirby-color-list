@@ -11,20 +11,37 @@ ul.color-list-field li {
 ul.color-list-field li input {
  display: none;
 }
-ul.color-list-field li input + span { 
- -webkit-transition: all .3s linear;
- -moz-transition: all .3s linear;
- -o-transition: all .3s linear;
- transition: all .3s linear;
-}
-ul.color-list-field li input:checked + span {
- border: 5px solid rgba(255, 255, 255, 0.3);
-}
-ul.color-list-field li span {
+ul.color-list-field li label {
+   position:relative;
+   z-index:1;
  width: 50px;
  height: 50px;
  display: block;
  cursor: pointer;
- border: 12px solid #e6e6e6;
- border-radius: 50px;
+ background: #e6e6e6;
+ border-radius: 50%;
+   overflow:hidden;
+}
+ul.color-list-field li label span {
+   display:inline-block;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   width: 25px;
+   height: 25px;
+   border-radius: 50%; 
+   -webkit-transition: all .2s linear;
+   -moz-transition: all .2s linear;
+   -o-transition: all .2s linear;
+   transition: all .2s linear;
+   z-index:2
+}
+ul.color-list-field li label:hover span{
+  width: 35px;
+ height: 35px; 
+}
+ul.color-list-field li input:checked + span{
+  width: 45px;
+ height: 45px; 
 }
