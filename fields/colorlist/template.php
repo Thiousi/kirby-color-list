@@ -8,3 +8,22 @@
 </li>
 <?php endforeach ?>
 </ul>
+
+    <script type="text/javascript">
+        var allRadios = document.getElementsByName('<?php echo $field->name(); ?>');
+        var booRadio;
+        var x = 0;
+        for(x = 0; x < allRadios.length; x++){
+
+            allRadios[x].onclick = function() {
+                if(booRadio == this){
+                    this.checked = false;
+                    booRadio = null;
+                    console.log('1');
+                }else{
+                    booRadio = this;
+                    console.log('2');
+                }
+            };
+        }
+    </script>
