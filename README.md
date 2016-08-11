@@ -2,7 +2,7 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
 
 A color picker in the form of a list of colors for [Kirby](http://getkirby.com)
-![](https://github.com/thiousi/kirby-color-field/blob/master/screenshot.jpg)
+![](https://github.com/Thiousi/kirby-color-list/blob/master/screenshot.jpg)
 
 ## Installation
 
