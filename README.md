@@ -1,9 +1,21 @@
 # Kirby Color List
-**ALPHA VERSION**
-A color picker in the form of a list of colors for Kirby
+![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
+
+A color picker in the form of a list of colors for [Kirby](http://getkirby.com)
+![](https://github.com/thiousi/kirby-color-field/blob/master/screenshot.jpg)
 
 ## Installation
-Copy `colorlist` folder to your `site/fields` folder. If it doesn't exist, create it.
+
+### 1. Kirby CLI
+
+If you are using the [Kirby CLI](https://github.com/getkirby/cli) you can install this plugin by running the following command in your shell from the root folder of your Kirby installation:
+
+```
+kirby plugin:install thiousi/kirby-color-list
+```
+
+### 2. Manual
+Download this archive, extract it and rename it to `colorlist`. Copy the folder to your `site/plugins` folder.
 
 ## Usage
 In  your blueprint:
@@ -46,3 +58,6 @@ It does not support to query the options from another field. I had planned to im
 - @jenstornell for the Boiler field and his help debugging the field
 - @ian-cox for his help designing the field and inspiration with the color field
 - @Konstantinfr for his patience
+
+## License
+MIT

@@ -1,0 +1,28 @@
+ul.color-list-field {
+  overflow: auto;
+  list-style-type: none;
+  padding-left: 1.5em;
+}
+ul.color-list-field li {
+  float: left;
+  position: relative;
+  margin: 0 0.75em 0.75em 0;
+}
+ul.color-list-field li input {
+  display: none;
+}
+ul.color-list-field li input:checked + span {
+  border: 5px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition: border 500ms;
+  -moz-transition: border 500ms;
+  -o-transition: border 500ms;
+  transition: border 500ms;
+}
+ul.color-list-field li span {
+  width: 50px;
+  height: 50px;
+  display: block;
+  cursor: pointer;
+  border: 12px solid #e6e6e6;
+  border-radius: 50px;
+}
