@@ -3,7 +3,7 @@
 
 A color picker in the form of a list of colors for [Kirby](http://getkirby.com)
 
-![](https://github.com/Thiousi/kirby-color-list/blob/master/screenshot.jpg)
+![Kirby Color List](https://github.com/Thiousi/kirby-color-list/blob/master/screenshot.jpg)
 
 ## Installation
 
@@ -49,11 +49,11 @@ The field supports the standard options:
 It does not support to query the options from another field. I had planned to implement it but realized it wasn't useful.
 
 ## To-do
-- [X] Fix default not working
-- [X] Fix readonly not working
-- [X] Fix field name
+- [X] ~~Fix default not working~~
+- [X] ~~Fix readonly not working~~
+- [X] ~~Fix field name~~
+- [X] ~~Make it Kirby CLI and git submodule friendly~~
 - [ ] Display color value in tooltip. Maybe?
-- [ ] Make it Kirby CLI and git submodule friendly
 
 ## Thanks
 - @jenstornell for the Boiler field and his help debugging the field
