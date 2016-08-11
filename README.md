@@ -24,13 +24,25 @@ In  your blueprint:
       - "#e91e63"
 ```
 
+### Options
+The field supports the standard options:
+- Default
+- Readonly
+- Translate
+- Help
+- Width
+- ...
+
+It does not support to query the options from another field. I had planned to implement it but realized it wasn't useful.
+
 ## To-do
-- [ ] Add support for fetching remote data (like radio, select, etc)
-- [ ] Test (not sure default is working)
-- [ ] Display color value in tooltip maybe?
+- [X] Fix default not working
+- [X] Fix readonly not working
+- [X] Fix field name
+- [ ] Display color value in tooltip. Maybe?
 - [ ] Make it Kirby CLI and git submodule friendly
 
 ## Thanks
-- @jenstornell for the Boiler field
+- @jenstornell for the Boiler field and his help debugging the field
 - @ian-cox for his help designing the field and inspiration with the color field
 - @Konstantinfr for his patience
