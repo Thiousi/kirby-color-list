@@ -1,4 +1,5 @@
 # Kirby Color List
+**ALPHA VERSION**
 A color picker in the form of a list of colors for Kirby
 
 ## Installation
@@ -28,3 +29,8 @@ In  your blueprint:
 - [ ] Test (not sure default is working)
 - [ ] Display color value in tooltip maybe?
 - [ ] Make it Kirby CLI and git submodule friendly
+
+## Thanks
+- @jenstornell for the Boiler field
+- @ian-cox for his help designing the field and inspiration with the color field
+- @Konstantinfr for his patience
