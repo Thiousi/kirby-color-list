@@ -11,21 +11,18 @@ ul.color-list-field li {
 ul.color-list-field li input {
  display: none;
 }
-ul.color-list-field li input + span {  
- -webkit-transition: border 500ms;
- -moz-transition: border 500ms;
- -o-transition: border 500ms;
- transition: border 500ms;
-}
 ul.color-list-field li input:checked + span {
- border: 5px solid rgba(255, 255, 255, 0.3);
-
+  border: 5px solid rgba(255, 255, 255, 0.3);
 }
 ul.color-list-field li span {
- width: 50px;
- height: 50px;
- display: block;
- cursor: pointer;
- border: 12px solid #e6e6e6;
- border-radius: 50px;
+  -webkit-transition: border .5s;
+  -moz-transition: border .5s;
+  -o-transition: border .5s;
+  transition: border .5s;
+  width: 50px;
+  height: 50px;
+  display: block;
+  cursor: pointer;
+  border: 12px solid #e6e6e6;
+  border-radius: 50px;
 }
