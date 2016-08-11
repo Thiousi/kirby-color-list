@@ -5,6 +5,10 @@ A color picker in the form of a list of colors for [Kirby](http://getkirby.com)
 
 ![Kirby Color List](https://github.com/Thiousi/kirby-color-list/blob/master/screenshot.jpg)
 
+## Requirements
+
+Kirby 2.3
+
 ## Installation
 
 ### 1. Kirby CLI
