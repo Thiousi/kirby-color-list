@@ -1,0 +1,8 @@
+{
+"name": "colorlist",
+"description": "A color picker in the form of a list of colors for Kirby",
+"author": "Mathieu Etienne",
+"license": "MIT",
+"version": "0.1.1",
+"type": "kirby-field"
+}
