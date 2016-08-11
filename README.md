@@ -22,6 +22,13 @@ kirby plugin:install thiousi/kirby-color-list
 ### 2. Manual
 Download this archive, extract it and rename it to `colorlist`. Copy the folder to your `site/plugins` folder.
 
+### 3. Git Submodule
+If you know your way around git, you can download this as a submodule:
+
+```
+git submodule add https://github.com/Thiousi/kirby-color-list/ site/plugins/color
+```
+
 ## Usage
 In  your blueprint:
 
@@ -42,10 +49,13 @@ In  your blueprint:
 ```
 
 Because the field uses background-color, you can use any type of colors as options, and even mix them up:
+
+```
 - "#fff"
 - "rgba(255,255,255,0.5)"
 - "rgb(255,255,255)"
 - "red"
+```
 
 ### Options
 The field supports the standard options:
