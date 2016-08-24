@@ -26,7 +26,7 @@ Download this archive, extract it and rename it to `colorlist`. Copy the folder 
 If you know your way around git, you can download this as a submodule:
 
 ```
-git submodule add https://github.com/Thiousi/kirby-color-list/ site/plugins/color
+git submodule add https://github.com/Thiousi/kirby-color-list/ site/plugins/colorlist
 ```
 
 ## Usage
