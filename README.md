@@ -1,13 +1,9 @@
 # Kirby Color List
-![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-green.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) ![Kirby Version](https://img.shields.io/badge/Kirby-2.3%2B-red.svg)
 
 A color picker in the form of a list of colors for [Kirby](http://getkirby.com)
 
 ![Kirby Color List](https://github.com/Thiousi/kirby-color-list/blob/master/screenshot.jpg)
-
-## Requirements
-
-Kirby 2.3
 
 ## Installation
 
@@ -36,7 +32,7 @@ In  your blueprint:
   color:
     label: Color list
     type: colorlist
-    options: 
+    options:
       - "#eb1717"
       - "#28db78"
       - "#333333"
@@ -66,7 +62,7 @@ There is a custom option to allow the radio buttons to be unselected (with js), 
     label: Color list
     type: colorlist
     unset: true
-    options: 
+    options:
       - "#eb1717"
       - "#28db78"
 ```
