@@ -89,10 +89,10 @@ It does not support to query the options from another field. I had planned to im
 - [ ] Display color value in tooltip. Maybe?
 
 ## Thanks
-- @jenstornell for the Boiler field and his help debugging the field
-- @ian-cox for his help designing the field and inspiration with the color field
-- @malvese for testing
-- @Konstantinfr for his patience and front-end help
+- [@jenstornell](https://github.com/jenstornell) for the Boiler field and his help debugging the field
+- [@ian-cox](https://github.com/ian-cox) for his help designing the field and inspiration with the color field
+- [@malvese](https://github.com/malvese) for testing
+- [@Konstantinfr](https://github.com/constantinjoly/) for his patience and front-end help
 
 ## License
 MIT
